@@ -1,6 +1,8 @@
 # login 화면 구현
  ## 📘 재현님과의 코드 리뷰 정리!
 
+<img src="https://velog.velcdn.com/images/greenth322/post/361dca2c-383d-456c-9a48-92422d152582/image.PNG">
+
 ### 📌 로그인1.html/css
 #### 1. 레이아웃은 position을 사용하지 않는다! 왜? 요소가 추가 되면 디자인이 망가지거나 밀려나는 등 다른 normal-flow 요소드ㅡㄹ과 겹침 현상이 일어날 수 있다 
 #### 2. padding으로 요소들의 크기를 지정하면 좋다. <br> 소속된 요소들의 크기가 변하거나 추가되어도 유연하게 유지보수가 가능하기 때문이다. <br> 단!! ```<a>``` 태그의 크기를 조정할 때 padding은 주의해야 한다. 다른 곳까지 클릭이 될 수 있기 때문이다.
@@ -9,6 +11,10 @@
 #### 5. 열린 태그는 가상 태그를 사용할 수 없다!! 가상태그는 꼭 닫힌 태그와 쓰는 것 잊지 않기!
 #### 6.  <span style="background-color:#4cfc8d">[float]</span><br> - 가상 요소는 기본적으로 inline 요소라서 너비/높이 지정이 불가함 > 하지만, float 설정을 하게 되면 inline-block으로 바뀌어 높이/너비 지정이 가능해진다. <br> - float을 사용했을 경우는 margin으로 조정(float은 inline-block이니까) <br> - float을 부모에게도 주면, 자식들이 다 float이어도 자식을 알아본다.
 ***
+<img src="https://velog.velcdn.com/images/greenth322/post/c45a36f1-fe3d-4b13-9bea-949d3134e66e/image.PNG" width="450">
+
+<img src="https://velog.velcdn.com/images/greenth322/post/45fcf5fa-5973-4bd5-89cf-173d853b41a4/image.PNG" width="450">
+
 ### 📌 로그인2.html/css
 
 #### 1. ```<img>```에는 꼭 alt값을 주어 자세하게 시각장애인들도 이해할 수 있도록 웹접근성을 지켜주자<br> ex) 닫기 버튼: close X, 로그인 창 닫기 O
