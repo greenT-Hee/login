@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-wrap{
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+select{
+    width: 200px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+
+select:hover {
+    border: 1px solid #9B51E0;
+}
+
+option:hover{
+    background-color: #F8E4FF;
+}
