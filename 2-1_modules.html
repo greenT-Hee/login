@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="2-1_modules.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <section class="modules">
+        <p>SNS 버튼 모듈</p>
+        <ul class="sns-link-bttns">
+            <li><a href="#none" class="google link-sns-login">구글 계정으로 로그인</a></li>
+            <li><a href="#none" class="facebook link-sns-login">페이스북 계정으로 로그인</a></li>
+            <li><a href="#none" class="naver link-sns-login">네이버 계정으로 로그인</a></li>
+            <li><a href="#none" class="kakao link-sns-login">카카오 계정으로 로그인</a></li>
+        </ul>
+
+        <p>로그인 버튼 모듈</p>
+        <button type="button" class="bttn-login">로그인</button>
+        <button type="button" class="bttn-close"><img src="images/close.png" alt="로그인 화면 닫기"></button>
+
+
+        <p>input 모듈</p>
+        <fieldset class="module-inp module-inp-id error">
+            <label for="inpId" class="txt-hide">아이디</label>
+            <input type="text" class="inp-login" id="inpId" placeholder="아이디">
+            <strong class="inp-error">아이디를 입력해주세요.</strong>
+        </fieldset>
+        <fieldset class="module-inp error">
+            <label for="inpPw" class="txt-hide">비밀번호</label>
+            <input type="password" class="inp-login" id="inpPw" placeholder="비밀번호">
+            <strong class="inp-error">아이디 혹은 비밀번호와 일치하지 않습니다.</strong>
+        </fieldset>
+    </section>
+</body>
+</html>

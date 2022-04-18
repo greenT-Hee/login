@@ -1,0 +1,98 @@
+p{
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/*sns 버튼 모듈*/
+.link-sns-login{
+    display: block;
+    padding: 15px 15px;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #767676;
+    text-decoration: none;
+}
+.facebook{
+    border: 1px solid #2D9CDB;
+}
+.naver{
+    border: 1px solid #00BF18;
+}
+.kakao{
+    border: 1px solid #F2C94C;
+}
+.google::before{
+    content: url(images/Google__G__Logo\ 1.png);
+    float: left;
+}
+.facebook::before{
+    content: url(images/facebook.png);
+    float: left;
+}
+.naver::before{
+    content: url(images/naver-logo.png);
+    float: left;
+}
+.kakao::before{
+    content: url(images/message-circle.png);
+    float: left;
+}
+
+
+/*로그인/ 닫기 버튼 모듈*/
+.bttn-login{
+    display: block;
+    width: 100vw;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: #2F80ED;
+    cursor: pointer;
+}
+
+.bttn-close{
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/*input 모듈*/
+.module-inp{
+    margin-bottom: 30px;
+} 
+
+.module-inp .inp-login {
+    display: block;
+    width: 100%;
+    padding: 15px 16px 15px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.module-inp .inp-login{
+    position: relative;
+    border: 2px solid #F4492E;
+}
+
+.inp-error{
+    /*display: none;*/
+    margin: 6px 0 0 4px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    color: #F4492E;
+}
