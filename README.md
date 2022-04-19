@@ -38,3 +38,19 @@
 
 > <img src="https://velog.velcdn.com/images/greenth322/post/a8b9137d-1488-47fe-b690-0576f2e4f1a1/image.png" width="950">
 
+<br>
+
+### 📌 DropDown.html/css
+#### input은 css만으로 디자인 구현을 하기 어렵다. 특히, firefox를 제외하고 커스텀 효과가 나타지 않는 브라우저가 대다수이기 때문이다. 그래서 button으로 html을 마크업하고 css를 적용하는 방법으로 문제를 해결할 수 있었다. 아직 JS를 배우지 않았기 때문에 디자인 커스텀만 해놓았다.
+
+#### ✔ 새롭게 배운 점 <br>부모요소가 텍스트의 공백을 만나면 어떻게 처리할까? <br> --> 공백을 만나면 감싸지 않고, 넘쳐흐르는 부분은 숨겨라, 그리고 (...)으로 줄여라
+
+```
+.txt-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+```
+
+<img src="https://velog.velcdn.com/images/greenth322/post/5e9bbd2a-3a92-48fc-b974-c094df4b8aa7/image.jpg" width="250">
