@@ -7,6 +7,17 @@
     text-overflow:ellipsis;
 }
 
+
+/*
+.text-ellipsis {
+    텍스트를 감싸고 있는 부모요소가 공백을 만났을 때 어떻게 처리할 것인지에 대한 속성
+    white-space: nowrap;
+    overflow: hidden;
+    말줄임 만들기  패딩 값 조정으로 말줄임 표시와 버튼 이미지가 겹치는 것을 막아줄 수 있다.
+    text-overflow: ellipsis;
+}
+*/
+
 .cont-select{
     width: 200px;
     margin: 100px auto 0;
