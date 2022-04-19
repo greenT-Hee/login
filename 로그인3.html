@@ -9,15 +9,28 @@
     <title>로그인_드롭박스</title>
 </head>
 <body>
-    <form action="로그인3.html" method="post" class="form-wrap">
-        <select name="" id="">
-            <option value="0" disabled selected hidden>최애 프로그래밍 언어</option>
-            <option value="1">Python</option>
-            <option value="2">Java</option>
-            <option value="3">JavaScript</option>
-            <option value="4">C#</option>
-            <option value="5">C/C++</option>
-        </select>
-    </form>
+    <button class="btn-select">최애 프로그래밍 언어</button>
+    <ul class="list-member">
+        <li><button type="button">Python</button></li>
+        <li><button type="button">JavaScript</button></li>
+        <li><button type="button">Java</button></li>
+        <li><button type="button">C#</button></li>
+        <li><button type="button">C/C++</button></li>
+    </ul>
+
+
+    <script>
+        const btn = document.querySelector('.btn-select');
+        const list = document.querySelector('.list-member');
+        btn.addEventListener('click', () => {
+            list.classList.toggle('on');
+        });
+        list.addEventListener('click', (event) => {
+            if (event.target.nodeName === "BUTTON") {
+                btn.innerText = event.target.innerText;
+                list.classList.remove('on');
+            }
+        });
+    </script>    
 </body>
 </html>
