@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'SpoqaHanSansNeo-Regular';
+}
+
+h1,p{
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+
+.wrapper{
+    position: relative;
+    width: 535px;
+    padding-bottom: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 200px auto;
+    overflow: hidden;
+}
+
+
+h1{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #C4C4C4;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.close{
+    width: 16px;
+    position: relative;
+    left: 92%;
+    top: -42px
+
+}
+
+.main p:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+    padding: 26px 0 0 24px;
+}
+
+.id{
+    width: 472px;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    margin: 24px 0 0 24px;
+    border-radius: 4px;
+}
+
+
+.password{
+    width: 472px;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    margin: 10px 0 0 24px;
+    border-radius: 4px;
+
+}
+
+
+.id::placeholder, .password::placeholder{
+    padding-left: 10px;
+}
+
+.stay-login{
+    margin-top: 17px;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+
+
+label{
+    font-size: 16px;
+    color: #767676;
+    
+}
+
+.login{
+    display: block;
+    width: 472px;
+    height: 38px;
+    padding-top: 12px;
+    margin: 21px 0 20px 30px;
+    vertical-align: middle;
+    line-height: 1.5;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    background-color:#2F80ED ;
+}
+
+
+.help{
+    text-decoration: none;
+    font-size: 14px;
+    color:#767676;
+
+
+}
+
+.join{
+    margin-left: 34% ;
+    padding: 0 12px 0 0;
+    border-right: 1px solid  #767676;
+}
+
+.find{
+    padding-left: 10px;
+}
+
+.or {
+    position: relative;
+    font-size: 14px;
+    color:#767676;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+
+.or::before{
+    position: absolute;
+    content:'';
+    clear: both;
+    width: 210px;
+    height: 1px;
+    left: 24px;
+    top: 27px;
+    background-color: #767676;
+    
+}
+
+.or::after{
+    position: absolute;
+    content:'';
+    clear: both;
+    width: 210px;
+    height: 1px;
+    right: 24px;
+    top: 27px;
+    background-color: #767676;
+    
+}
+
+
+.sns{
+    display: inline-block;
+    width: 472px;
+    height: 34px;
+    margin: 5px 0 5px 30px;
+    padding: 13px 0 3px 0;
+    border: 1px solid #767676;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #767676;
+}
+
+
+/*이미지 sprite*/
+.sns::before {
+    float: left;
+    display: block;
+    content: "";
+    margin-left: 10px;
+}
+
+.sns.google::before{
+    width: 28px;
+    height: 28px;
+    background-size: 38px 152px;
+    background-image: url(images/spritesheet_X2.png);
+    background-position: -5px -5px;
+}
+.sns.facebook::before{
+    width: 28px;
+    height: 28px;
+    background-size: 38px 152px;
+    background-image: url(images/spritesheet_X2.png);
+    background-position: -5px -43px;
+
+}
+.sns.naver::before{
+    width: 28px;
+    height: 28px;
+    background-size: 38px 152px;
+    background-image: url(images/spritesheet_X2.png);
+    background-position:  -5px -119px;
+
+}
+.sns.kakao::before{
+    width: 28px;
+    height: 28px;
+    background-size: 38px 152px;
+    background-image: url(images/spritesheet_X2.png);
+    background-position: -5px -81px;
+   
+}
+
+
+.sns.facebook{
+    border: 1px solid #2D9CDB;
+}
+.sns.naver{
+    border: 1px solid #00BF18;
+}
+
+
+.sns.kakao{
+    border: 1px solid #F2C94C;
+
+}
+
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="2-1_로그인.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인2-1</title>
+</head>
+<body>
+    <section class="wrapper">
+        <section class="top">
+            <h1>로그인 또는 회원가입</h1>
+            <img class="close" src="images/close.png" alt="close">
+        </section>
+        <main class="main">
+            <p>위니브에서 여러분의 궁금증을 해결하세요!:)</p>
+
+            <form action="로그인2-1.html" method="post">
+                <label for="id" hidden>아이디</label>
+                <input id="id" class="id" type="text" name="아이디" placeholder="아이디" required>
+                <label for="password" hidden >비밀번호</label>
+                <input class="password" type="password" name="비밀번호" placeholder="비밀번호" required>
+                <input type="checkbox" name="로그인 상태 유지" id="stay-login" class="stay-login" >
+                <label for="stay-login" >로그인 상태 유지</label>
+                <a type="submit" href="로그인2-1.html" class="login">로그인</a>
+            </form>
+
+            
+            <a href="#" class="join help">회원가입</a>
+            <a href="#" class="find help">아이디/비밀번호 찾기</a>
+
+            <p class="or">또는</p>
+            
+            <a href="" class="sns google">구글 계정으로 로그인</a>
+            <a href="" class="sns facebook">페이스북 계정으로 로그인</a>
+            <a href="" class="sns naver">네이버 계정으로 로그인</a>
+            <a href="" class="sns kakao">카카오톡 계정으로 로그인</a>
+        </main>
+    </section>
+</body>
+</html>
+
