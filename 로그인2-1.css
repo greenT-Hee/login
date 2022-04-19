@@ -187,23 +187,47 @@ label{
     color: #767676;
 }
 
-.sns img{
-    width: 26px;
+
+/*이미지 sprite*/
+.sns::before {
     float: left;
-    margin: 0 0 0 10px;
+    display: block;
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(images/css_sprites.png);
 }
-.facebook{
+
+.sns.google::before{
+    width: 28px; height: 28px;
+    background-position: -7px -10px;
+}
+.sns.facebook::before{
+    width: 28px; height: 28px;
+    background-position:  -56px -13px;
+}
+.sns.naver::before{
+    width: 28px; height: 28px;
+    background-position:  -7px -58px;
+}
+.sns.kakao::before{
+    width: 28px; height: 28px;
+    background-position:  -56px -58px;
+}
+
+
+.sns.facebook{
     border: 1px solid #2D9CDB;
-
 }
-.naver{
+.sns.naver{
     border: 1px solid #00BF18;
-
 }
 
-.kakao{
+
+.sns.kakao{
     border: 1px solid #F2C94C;
 
 }
+
 
 
