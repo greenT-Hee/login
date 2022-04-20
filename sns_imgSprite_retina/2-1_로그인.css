@@ -216,7 +216,7 @@ label{
     height: 28px;
     background-size: 38px 152px;
     background-image: url(images/spritesheet_X2.png);
-    background-position:  -5px -119px;
+    background-position:  -5px -119px; /*X1 사이즈 이미지 크기*/
 
 }
 .sns.kakao::before{
@@ -225,7 +225,6 @@ label{
     background-size: 38px 152px;
     background-image: url(images/spritesheet_X2.png);
     background-position: -5px -81px;
-   
 }
 
 
