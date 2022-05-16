@@ -8,7 +8,6 @@ const option = document.querySelectorAll('.opt-member');
 
 btnSelect.addEventListener('click', function(){
     listMember.classList.toggle('show');
-    // btnSelect.classList.add('on');
     btnSelect.classList.toggle('on');
 })
 
@@ -22,11 +21,8 @@ option.forEach(function(item){
         const value = e.currentTarget.textContent;
         btnSelect.textContent = value;
         btnSelect.classList.add('selected-style')
-        // listMember.classList.remove('show')
-        // btnSelect.classList.remove('on');
     })
 })
-
 
 
 
