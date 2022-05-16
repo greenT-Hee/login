@@ -4,7 +4,6 @@ const listMember = document.querySelector('.list-member');
 const option = document.querySelectorAll('.opt-member');
 
 // 토글버튼이 클릭 --> 메뉴 보인다 
-// list-member를 show
 
 btnSelect.addEventListener('click', function(){
     listMember.classList.toggle('show');
@@ -21,10 +20,10 @@ option.forEach(function(item){
         const value = e.currentTarget.textContent;
         btnSelect.textContent = value;
         btnSelect.classList.add('selected-style')
+
     })
 })
 
-
-
+//mousedown > blur > mouseup > click
 //마우스다운 이벤트는 블러보다 먼저 실행되는 이벤트래요!
 //https://stackoverflow.com/questions/39439115/how-to-execute-click-function-before-the-blur-function
